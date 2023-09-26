@@ -25,13 +25,13 @@ voting(12)
 
 // or operator
 
-let x=10;
-let y=20;
 
-if(x==2 || y==2){
-    console.log('value get from y')
-}
-else{
-    console.log('not found')
-}
+
+
+
+//not
+let x=1;
+let y=1;
+
+console.log(!x==y);
 
