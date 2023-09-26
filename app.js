@@ -23,6 +23,20 @@ function voting(age){
 }
 voting(12)
 
+
+
+//&&&
+function MotorVahicles(drivingLicence,age){
+    if(age>=18 && drivingLicence==true){
+        console.log('you can drive')
+    }
+    else{
+        console.log('you cannot drive')
+    }
+}
+MotorVahicles(false,26)
+
+
 // or operator
 function MotorVahicles(drivingLicence,age){
     if(age>=18 || drivingLicence){
